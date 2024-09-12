@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/otete/colcon_ws_controller/src/hello_interfaces
+CMAKE_SOURCE_DIR = /home/otete/topic_communication_with_ps4controller/src/hello_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/otete/colcon_ws_controller/build/hello_interfaces
+CMAKE_BINARY_DIR = /home/otete/topic_communication_with_ps4controller/build/hello_interfaces
 
 # Utility rule file for hello_interfaces__cpp.
 
@@ -87,8 +87,8 @@ rosidl_generator_cpp/hello_interfaces/msg/my_string.hpp: /opt/ros/humble/share/r
 rosidl_generator_cpp/hello_interfaces/msg/my_string.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/hello_interfaces/msg/my_string.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/hello_interfaces/msg/my_string.hpp: rosidl_adapter/hello_interfaces/msg/MyString.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/otete/colcon_ws_controller/build/hello_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/otete/colcon_ws_controller/build/hello_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/otete/topic_communication_with_ps4controller/build/hello_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/otete/topic_communication_with_ps4controller/build/hello_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/hello_interfaces/msg/detail/my_string__builder.hpp: rosidl_generator_cpp/hello_interfaces/msg/my_string.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hello_interfaces/msg/detail/my_string__builder.hpp
@@ -116,6 +116,6 @@ CMakeFiles/hello_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/hello_interfaces__cpp.dir/clean
 
 CMakeFiles/hello_interfaces__cpp.dir/depend:
-	cd /home/otete/colcon_ws_controller/build/hello_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/otete/colcon_ws_controller/src/hello_interfaces /home/otete/colcon_ws_controller/src/hello_interfaces /home/otete/colcon_ws_controller/build/hello_interfaces /home/otete/colcon_ws_controller/build/hello_interfaces /home/otete/colcon_ws_controller/build/hello_interfaces/CMakeFiles/hello_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/otete/topic_communication_with_ps4controller/build/hello_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/otete/topic_communication_with_ps4controller/src/hello_interfaces /home/otete/topic_communication_with_ps4controller/src/hello_interfaces /home/otete/topic_communication_with_ps4controller/build/hello_interfaces /home/otete/topic_communication_with_ps4controller/build/hello_interfaces /home/otete/topic_communication_with_ps4controller/build/hello_interfaces/CMakeFiles/hello_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hello_interfaces__cpp.dir/depend
 

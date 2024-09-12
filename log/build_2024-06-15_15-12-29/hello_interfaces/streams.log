@@ -1,0 +1,225 @@
+[0.171s] Invoking command in '/home/otete/topic_communication_with_ps4controller/build/hello_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/otete/topic_communication_with_ps4controller/src/hello_interfaces -DCMAKE_INSTALL_PREFIX=/home/otete/topic_communication_with_ps4controller/install/hello_interfaces
+[0.271s] -- The C compiler identification is GNU 11.4.0
+[0.335s] -- The CXX compiler identification is GNU 11.4.0
+[0.343s] -- Detecting C compiler ABI info
+[0.398s] -- Detecting C compiler ABI info - done
+[0.408s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.408s] -- Detecting C compile features
+[0.409s] -- Detecting C compile features - done
+[0.413s] -- Detecting CXX compiler ABI info
+[0.475s] -- Detecting CXX compiler ABI info - done
+[0.485s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.485s] -- Detecting CXX compile features
+[0.485s] -- Detecting CXX compile features - done
+[0.489s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.616s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.690s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.693s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.697s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.731s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.929s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.066s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.232s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.248s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.249s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.268s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.268s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.268s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.268s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.282s] -- Found PythonExtra: .so  
+[1.304s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.320s] -- Added test 'lint_cmake' to check CMake code style
+[1.320s] -- Added test 'xmllint' to check XML markup files
+[1.322s] -- Configuring done
+[1.339s] -- Generating done
+[1.341s] -- Build files have been written to: /home/otete/topic_communication_with_ps4controller/build/hello_interfaces
+[1.345s] Invoked command in '/home/otete/topic_communication_with_ps4controller/build/hello_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/otete/topic_communication_with_ps4controller/src/hello_interfaces -DCMAKE_INSTALL_PREFIX=/home/otete/topic_communication_with_ps4controller/install/hello_interfaces
+[1.347s] Invoking command in '/home/otete/topic_communication_with_ps4controller/build/hello_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/otete/topic_communication_with_ps4controller/build/hello_interfaces -- -j16 -l16
+[1.374s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.381s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.386s] [  6%] Built target ament_cmake_python_copy_hello_interfaces
+[1.581s] [  6%] Built target hello_interfaces__cpp
+[1.582s] running egg_info
+[1.583s] creating hello_interfaces.egg-info
+[1.583s] writing hello_interfaces.egg-info/PKG-INFO
+[1.583s] writing dependency_links to hello_interfaces.egg-info/dependency_links.txt
+[1.583s] writing top-level names to hello_interfaces.egg-info/top_level.txt
+[1.584s] writing manifest file 'hello_interfaces.egg-info/SOURCES.txt'
+[1.585s] reading manifest file 'hello_interfaces.egg-info/SOURCES.txt'
+[1.585s] writing manifest file 'hello_interfaces.egg-info/SOURCES.txt'
+[1.590s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.590s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.594s] [ 19%] [32mBuilding C object CMakeFiles/hello_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hello_interfaces/msg/detail/my_string__functions.c.o[0m
+[1.595s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.609s] [ 19%] Built target ament_cmake_python_build_hello_interfaces_egg
+[1.670s] [ 22%] [32m[1mLinking C shared library libhello_interfaces__rosidl_generator_c.so[0m
+[1.707s] [ 22%] Built target hello_interfaces__rosidl_generator_c
+[1.716s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.721s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.722s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.799s] [ 35%] [32mBuilding CXX object CMakeFiles/hello_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hello_interfaces/msg/detail/my_string__type_support.cpp.o[0m
+[1.832s] [ 38%] [32mBuilding CXX object CMakeFiles/hello_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hello_interfaces/msg/my_string__type_support.cpp.o[0m
+[1.861s] [ 41%] [32mBuilding CXX object CMakeFiles/hello_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hello_interfaces/msg/detail/dds_fastrtps/my_string__type_support.cpp.o[0m
+[1.930s] [ 45%] [32mBuilding CXX object CMakeFiles/hello_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hello_interfaces/msg/my_string__type_support.cpp.o[0m
+[1.941s] [ 48%] [32mBuilding C object CMakeFiles/hello_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hello_interfaces/msg/detail/my_string__type_support.c.o[0m
+[1.957s] [ 51%] [32m[1mLinking CXX shared library libhello_interfaces__rosidl_typesupport_c.so[0m
+[1.979s] [ 54%] [32m[1mLinking C shared library libhello_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.994s] [ 54%] Built target hello_interfaces__rosidl_typesupport_c
+[2.007s] [ 54%] Built target hello_interfaces__rosidl_typesupport_introspection_c
+[2.051s] [ 58%] [32mBuilding CXX object CMakeFiles/hello_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hello_interfaces/msg/detail/my_string__type_support_c.cpp.o[0m
+[2.195s] [ 61%] [32m[1mLinking CXX shared library libhello_interfaces__rosidl_typesupport_cpp.so[0m
+[2.230s] [ 61%] Built target hello_interfaces__rosidl_typesupport_cpp
+[2.237s] [ 64%] [32m[1mLinking CXX shared library libhello_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.305s] [ 64%] Built target hello_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.322s] [ 67%] [32m[1mLinking CXX shared library libhello_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.364s] [ 70%] [32m[1mLinking CXX shared library libhello_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.384s] [ 70%] Built target hello_interfaces__rosidl_typesupport_fastrtps_c
+[2.413s] [ 70%] Built target hello_interfaces__rosidl_typesupport_introspection_cpp
+[2.428s] [ 70%] Built target hello_interfaces
+[2.441s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.625s] [ 74%] Built target hello_interfaces__py
+[2.639s] [ 77%] [32mBuilding C object CMakeFiles/hello_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hello_interfaces/msg/_my_string_s.c.o[0m
+[2.714s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/hello_interfaces/libhello_interfaces__rosidl_generator_py.so[0m
+[2.744s] [ 80%] Built target hello_interfaces__rosidl_generator_py
+[2.757s] [ 87%] [32mBuilding C object CMakeFiles/hello_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hello_interfaces/_hello_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.757s] [ 87%] [32mBuilding C object CMakeFiles/hello_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hello_interfaces/_hello_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.757s] [ 90%] [32mBuilding C object CMakeFiles/hello_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hello_interfaces/_hello_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.826s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/hello_interfaces/hello_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.826s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/hello_interfaces/hello_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.832s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hello_interfaces/hello_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.852s] [100%] Built target hello_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.852s] [100%] Built target hello_interfaces__rosidl_typesupport_c__pyext
+[2.863s] [100%] Built target hello_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.873s] Invoked command in '/home/otete/topic_communication_with_ps4controller/build/hello_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/otete/topic_communication_with_ps4controller/build/hello_interfaces -- -j16 -l16
+[2.922s] Invoking command in '/home/otete/topic_communication_with_ps4controller/build/hello_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/otete/topic_communication_with_ps4controller/build/hello_interfaces
+[2.927s] -- Install configuration: ""
+[2.928s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/ament_index/resource_index/rosidl_interfaces/hello_interfaces
+[2.928s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces
+[2.928s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg
+[2.928s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail
+[2.928s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail/my_string__functions.h
+[2.928s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail/my_string__functions.c
+[2.928s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail/my_string__type_support.h
+[2.928s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail/my_string__struct.h
+[2.928s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.929s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/my_string.h
+[2.929s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/environment/library_path.sh
+[2.929s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/environment/library_path.dsv
+[2.929s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_generator_c.so
+[2.929s] -- Set runtime path of "/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_generator_c.so" to ""
+[2.929s] -- Up-to-date: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces
+[2.929s] -- Up-to-date: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg
+[2.929s] -- Up-to-date: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail
+[2.929s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail/my_string__rosidl_typesupport_fastrtps_c.h
+[2.929s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.929s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.929s] -- Set runtime path of "/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.929s] -- Up-to-date: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces
+[2.929s] -- Up-to-date: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg
+[2.929s] -- Up-to-date: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail
+[2.930s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail/my_string__rosidl_typesupport_introspection_c.h
+[2.930s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail/my_string__type_support.c
+[2.930s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.930s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_typesupport_introspection_c.so
+[2.930s] -- Set runtime path of "/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.930s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_typesupport_c.so
+[2.930s] -- Set runtime path of "/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_typesupport_c.so" to ""
+[2.930s] -- Up-to-date: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces
+[2.930s] -- Up-to-date: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg
+[2.930s] -- Up-to-date: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail
+[2.930s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail/my_string__struct.hpp
+[2.930s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail/my_string__builder.hpp
+[2.930s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail/my_string__traits.hpp
+[2.930s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/my_string.hpp
+[2.930s] -- Up-to-date: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces
+[2.930s] -- Up-to-date: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg
+[2.930s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.930s] -- Up-to-date: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail
+[2.930s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail/dds_fastrtps
+[2.930s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail/my_string__rosidl_typesupport_fastrtps_cpp.hpp
+[2.930s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.930s] -- Set runtime path of "/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.930s] -- Up-to-date: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces
+[2.931s] -- Up-to-date: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg
+[2.931s] -- Up-to-date: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail/my_string__type_support.cpp
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/include/hello_interfaces/hello_interfaces/msg/detail/my_string__rosidl_typesupport_introspection_cpp.hpp
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.931s] -- Set runtime path of "/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_typesupport_cpp.so
+[2.931s] -- Set runtime path of "/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/environment/pythonpath.sh
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/environment/pythonpath.dsv
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces-0.0.0-py3.10.egg-info
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/_hello_interfaces_s.ep.rosidl_typesupport_c.c
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/hello_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/libhello_interfaces__rosidl_generator_py.so
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/hello_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/hello_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.931s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/__init__.py
+[2.932s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/_hello_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.932s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/msg
+[2.932s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/msg/_my_string_s.c
+[2.932s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/msg/_my_string.py
+[2.932s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/msg/__init__.py
+[2.932s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/_hello_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.957s] Listing '/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces'...
+[2.957s] Compiling '/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/__init__.py'...
+[2.957s] Listing '/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/msg'...
+[2.957s] Compiling '/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/msg/__init__.py'...
+[2.957s] Compiling '/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/msg/_my_string.py'...
+[2.960s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/hello_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.960s] -- Set runtime path of "/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/hello_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.960s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/hello_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.960s] -- Set runtime path of "/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/hello_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.961s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/hello_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.961s] -- Set runtime path of "/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/local/lib/python3.10/dist-packages/hello_interfaces/hello_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.961s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_generator_py.so
+[2.961s] -- Set runtime path of "/home/otete/topic_communication_with_ps4controller/install/hello_interfaces/lib/libhello_interfaces__rosidl_generator_py.so" to ""
+[2.961s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/msg/MyString.idl
+[2.961s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/msg/MyString.msg
+[2.961s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/ament_index/resource_index/package_run_dependencies/hello_interfaces
+[2.961s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/ament_index/resource_index/parent_prefix_path/hello_interfaces
+[2.961s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/environment/ament_prefix_path.sh
+[2.961s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/environment/ament_prefix_path.dsv
+[2.961s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/environment/path.sh
+[2.961s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/environment/path.dsv
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/local_setup.bash
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/local_setup.sh
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/local_setup.zsh
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/local_setup.dsv
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/package.dsv
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/ament_index/resource_index/packages/hello_interfaces
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/export_hello_interfaces__rosidl_generator_cExport.cmake
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/export_hello_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/export_hello_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/export_hello_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/hello_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/hello_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/hello_interfaces__rosidl_typesupport_cExport.cmake
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/hello_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/export_hello_interfaces__rosidl_generator_cppExport.cmake
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/export_hello_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/export_hello_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/hello_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/hello_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.962s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/hello_interfaces__rosidl_typesupport_cppExport.cmake
+[2.963s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/hello_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.963s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/export_hello_interfaces__rosidl_generator_pyExport.cmake
+[2.963s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/export_hello_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.963s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.963s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.963s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.963s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.963s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.963s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.963s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.963s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/hello_interfacesConfig.cmake
+[2.963s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/cmake/hello_interfacesConfig-version.cmake
+[2.963s] -- Installing: /home/otete/topic_communication_with_ps4controller/install/hello_interfaces/share/hello_interfaces/package.xml
+[2.965s] Invoked command in '/home/otete/topic_communication_with_ps4controller/build/hello_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/otete/topic_communication_with_ps4controller/build/hello_interfaces

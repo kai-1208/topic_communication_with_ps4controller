@@ -1,9 +1,9 @@
 {
   "package_name": "hello_interfaces",
-  "output_dir": "/home/otete/colcon_ws_controller/build/hello_interfaces/rosidl_typesupport_introspection_cpp/hello_interfaces",
+  "output_dir": "/home/otete/topic_communication_with_ps4controller/build/hello_interfaces/rosidl_typesupport_introspection_cpp/hello_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/otete/colcon_ws_controller/build/hello_interfaces/rosidl_adapter/hello_interfaces:msg/MyString.idl"
+    "/home/otete/topic_communication_with_ps4controller/build/hello_interfaces/rosidl_adapter/hello_interfaces:msg/MyString.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
@@ -14,6 +14,6 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/otete/colcon_ws_controller/build/hello_interfaces/rosidl_adapter/hello_interfaces/msg/MyString.idl"
+    "/home/otete/topic_communication_with_ps4controller/build/hello_interfaces/rosidl_adapter/hello_interfaces/msg/MyString.idl"
   ]
 }

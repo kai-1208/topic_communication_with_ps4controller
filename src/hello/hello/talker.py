@@ -68,7 +68,7 @@ class MyController(Controller, Node):
     # オムニ緊急停止
     def on_cross_press(self):
         msg = MyString()
-        msg.data = "pause"
+        msg.data = "cross"
         self.publisher_.publish(msg)
         self.get_logger().info("Published: " + msg.data)
 
@@ -126,7 +126,7 @@ class MyController(Controller, Node):
 
     def on_L1_release(self):
         msg = MyString()
-        msg.data = "release"
+        msg.data = "L1OFF"
         self.publisher_.publish(msg)
         self.get_logger().info("Published: " + msg.data)
 
@@ -138,7 +138,7 @@ class MyController(Controller, Node):
 
     def on_R1_release(self):
         msg = MyString()
-        msg.data = "release"
+        msg.data = "R1OFF"
         self.publisher_.publish(msg)
         self.get_logger().info("Published: " + msg.data)
 

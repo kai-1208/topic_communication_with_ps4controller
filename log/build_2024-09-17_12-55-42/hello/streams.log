@@ -1,0 +1,31 @@
+[0.776s] Invoking command in '/home/hisa/ROS2/topic_communication_with_ps4controller/src/hello': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hello build --build-base /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build install --record /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/install.log --single-version-externally-managed install_data
+[0.990s] running egg_info
+[1.002s] writing ../../build/hello/hello.egg-info/PKG-INFO
+[1.002s] writing dependency_links to ../../build/hello/hello.egg-info/dependency_links.txt
+[1.002s] writing entry points to ../../build/hello/hello.egg-info/entry_points.txt
+[1.002s] writing requirements to ../../build/hello/hello.egg-info/requires.txt
+[1.002s] writing top-level names to ../../build/hello/hello.egg-info/top_level.txt
+[1.034s] reading manifest file '../../build/hello/hello.egg-info/SOURCES.txt'
+[1.035s] writing manifest file '../../build/hello/hello.egg-info/SOURCES.txt'
+[1.035s] running build
+[1.035s] running build_py
+[1.035s] copying hello/talker_ID12.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello
+[1.035s] copying hello/talker_ID23.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello
+[1.035s] running install
+[1.041s] running install_lib
+[1.056s] copying /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello/talker_ID12.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello
+[1.056s] copying /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello/talker_ID23.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello
+[1.057s] byte-compiling /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello/talker_ID12.py to talker_ID12.cpython-312.pyc
+[1.059s] byte-compiling /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello/talker_ID23.py to talker_ID23.cpython-312.pyc
+[1.061s] running install_data
+[1.061s] running install_egg_info
+[1.075s] removing '/home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello-0.0.0-py3.12.egg-info' (and everything under it)
+[1.075s] Copying ../../build/hello/hello.egg-info to /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello-0.0.0-py3.12.egg-info
+[1.076s] running install_scripts
+[1.199s] Installing listener_robo1 script to /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/hello
+[1.199s] Installing listener_robo2-1 script to /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/hello
+[1.199s] Installing listener_robo2-2 script to /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/hello
+[1.199s] Installing talker_iseki script to /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/hello
+[1.199s] Installing talker_nari script to /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/hello
+[1.200s] writing list of installed files to '/home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/install.log'
+[1.294s] Invoked command in '/home/hisa/ROS2/topic_communication_with_ps4controller/src/hello' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hello build --build-base /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build install --record /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/install.log --single-version-externally-managed install_data

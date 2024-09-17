@@ -22,11 +22,11 @@ class MyController(Controller, Node):
     # id wo kimeru
     def on_share_press(self):
         subprocess.run(
-            "export ROS_DOMAIN_ID=2 && ros2 run hello talker", shell=True)
+            "export ROS_DOMAIN_ID=2 && ros2 run hello talker_ID23", shell=True)
 
     def on_options_press(self):
         subprocess.run(
-            "export ROS_DOMAIN_ID=3 && ros2 run hello talker", shell=True)
+            "export ROS_DOMAIN_ID=3 && ros2 run hello talker_ID23", shell=True)
 
     # def on_playstation_button_press(self):
     #     subprocess.run("export ROS_DOMAIN_ID=3 && ros2 run hello talker", shell=True)

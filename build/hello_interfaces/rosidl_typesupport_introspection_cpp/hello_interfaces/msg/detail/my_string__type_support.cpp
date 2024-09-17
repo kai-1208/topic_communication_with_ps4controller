@@ -9,6 +9,7 @@
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_typesupport_cpp/message_type_support.hpp"
 #include "rosidl_typesupport_interface/macros.h"
+#include "hello_interfaces/msg/detail/my_string__functions.h"
 #include "hello_interfaces/msg/detail/my_string__struct.hpp"
 #include "rosidl_typesupport_introspection_cpp/field_types.hpp"
 #include "rosidl_typesupport_introspection_cpp/identifier.hpp"
@@ -43,6 +44,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember MyString_mess
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
+    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -62,6 +64,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMembers MyString_mes
   "MyString",  // message name
   1,  // number of fields
   sizeof(hello_interfaces::msg::MyString),
+  false,  // has_any_key_member_
   MyString_message_member_array,  // message members
   MyString_init_function,  // function to initialize message memory (memory has to be allocated)
   MyString_fini_function  // function to terminate message instance (will not free memory)
@@ -71,6 +74,9 @@ static const rosidl_message_type_support_t MyString_message_type_support_handle 
   ::rosidl_typesupport_introspection_cpp::typesupport_identifier,
   &MyString_message_members,
   get_message_typesupport_handle_function,
+  &hello_interfaces__msg__MyString__get_type_hash,
+  &hello_interfaces__msg__MyString__get_type_description,
+  &hello_interfaces__msg__MyString__get_type_description_sources,
 };
 
 }  // namespace rosidl_typesupport_introspection_cpp

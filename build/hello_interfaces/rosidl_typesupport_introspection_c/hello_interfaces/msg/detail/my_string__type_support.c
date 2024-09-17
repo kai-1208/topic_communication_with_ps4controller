@@ -41,6 +41,7 @@ static rosidl_typesupport_introspection_c__MessageMember hello_interfaces__msg__
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
+    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -60,6 +61,7 @@ static const rosidl_typesupport_introspection_c__MessageMembers hello_interfaces
   "MyString",  // message name
   1,  // number of fields
   sizeof(hello_interfaces__msg__MyString),
+  false,  // has_any_key_member_
   hello_interfaces__msg__MyString__rosidl_typesupport_introspection_c__MyString_message_member_array,  // message members
   hello_interfaces__msg__MyString__rosidl_typesupport_introspection_c__MyString_init_function,  // function to initialize message memory (memory has to be allocated)
   hello_interfaces__msg__MyString__rosidl_typesupport_introspection_c__MyString_fini_function  // function to terminate message instance (will not free memory)
@@ -71,6 +73,9 @@ static rosidl_message_type_support_t hello_interfaces__msg__MyString__rosidl_typ
   0,
   &hello_interfaces__msg__MyString__rosidl_typesupport_introspection_c__MyString_message_members,
   get_message_typesupport_handle_function,
+  &hello_interfaces__msg__MyString__get_type_hash,
+  &hello_interfaces__msg__MyString__get_type_description,
+  &hello_interfaces__msg__MyString__get_type_description_sources,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_hello_interfaces

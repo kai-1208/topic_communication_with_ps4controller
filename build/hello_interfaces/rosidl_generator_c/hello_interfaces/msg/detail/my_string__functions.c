@@ -72,7 +72,7 @@ hello_interfaces__msg__MyString__copy(
 }
 
 hello_interfaces__msg__MyString *
-hello_interfaces__msg__MyString__create()
+hello_interfaces__msg__MyString__create(void)
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   hello_interfaces__msg__MyString * msg = (hello_interfaces__msg__MyString *)allocator.allocate(sizeof(hello_interfaces__msg__MyString), allocator.state);

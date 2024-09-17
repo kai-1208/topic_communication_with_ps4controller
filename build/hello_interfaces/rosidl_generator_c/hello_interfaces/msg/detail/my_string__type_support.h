@@ -2,6 +2,9 @@
 // with input from hello_interfaces:msg/MyString.idl
 // generated code does not contain a copyright notice
 
+// IWYU pragma: private, include "hello_interfaces/msg/my_string.h"
+
+
 #ifndef HELLO_INTERFACES__MSG__DETAIL__MY_STRING__TYPE_SUPPORT_H_
 #define HELLO_INTERFACES__MSG__DETAIL__MY_STRING__TYPE_SUPPORT_H_
 
@@ -24,7 +27,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
   hello_interfaces,
   msg,
   MyString
-)();
+)(void);
 
 #ifdef __cplusplus
 }

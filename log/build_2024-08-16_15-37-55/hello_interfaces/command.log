@@ -1,4 +1,0 @@
-Invoking command in '/home/otete/topic_communication_with_ps4controller/build/hello_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/otete/topic_communication_with_ps4controller/build/hello_interfaces -- -j16 -l16
-Invoked command in '/home/otete/topic_communication_with_ps4controller/build/hello_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/otete/topic_communication_with_ps4controller/build/hello_interfaces -- -j16 -l16
-Invoking command in '/home/otete/topic_communication_with_ps4controller/build/hello_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/otete/topic_communication_with_ps4controller/build/hello_interfaces
-Invoked command in '/home/otete/topic_communication_with_ps4controller/build/hello_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/otete/topic_communication_with_ps4controller/build/hello_interfaces

@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/hello/hello.egg-info
+writing ../../build/hello/hello.egg-info/PKG-INFO
+writing dependency_links to ../../build/hello/hello.egg-info/dependency_links.txt
+writing entry points to ../../build/hello/hello.egg-info/entry_points.txt
+writing requirements to ../../build/hello/hello.egg-info/requires.txt
+writing top-level names to ../../build/hello/hello.egg-info/top_level.txt
+writing manifest file '../../build/hello/hello.egg-info/SOURCES.txt'
+reading manifest file '../../build/hello/hello.egg-info/SOURCES.txt'
+writing manifest file '../../build/hello/hello.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build
+creating /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib
+creating /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello
+copying hello/talker_ID12.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello
+copying hello/talker_ID23.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello
+copying hello/__init__.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello
+copying hello/listener_ID2.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello
+copying hello/listener_ID1.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello
+copying hello/listener_ID3.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello
+running install
+running install_lib
+creating /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello
+copying /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello/talker_ID12.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello
+copying /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello/talker_ID23.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello
+copying /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello/__init__.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello
+copying /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello/listener_ID2.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello
+copying /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello/listener_ID1.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello
+copying /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello/build/lib/hello/listener_ID3.py -> /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello
+byte-compiling /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello/talker_ID12.py to talker_ID12.cpython-312.pyc
+byte-compiling /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello/talker_ID23.py to talker_ID23.cpython-312.pyc
+byte-compiling /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello/listener_ID2.py to listener_ID2.cpython-312.pyc
+byte-compiling /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello/listener_ID1.py to listener_ID1.cpython-312.pyc
+byte-compiling /home/hisa/ROS2/topic_communication_with_ps4controller/install/hello/lib/python3.12/site-packages/hello/listener_ID3.py to listener_ID3.cpython-312.pyc
+running install_data
+error: can't copy 'resource/hello': doesn't exist or not a regular file

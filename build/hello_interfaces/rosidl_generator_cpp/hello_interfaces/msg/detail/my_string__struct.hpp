@@ -2,6 +2,9 @@
 // with input from hello_interfaces:msg/MyString.idl
 // generated code does not contain a copyright notice
 
+// IWYU pragma: private, include "hello_interfaces/msg/my_string.hpp"
+
+
 #ifndef HELLO_INTERFACES__MSG__DETAIL__MY_STRING__STRUCT_HPP_
 #define HELLO_INTERFACES__MSG__DETAIL__MY_STRING__STRUCT_HPP_
 

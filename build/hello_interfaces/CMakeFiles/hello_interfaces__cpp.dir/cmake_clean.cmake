@@ -3,7 +3,9 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/hello_interfaces/msg/detail/my_string__builder.hpp"
   "rosidl_generator_cpp/hello_interfaces/msg/detail/my_string__struct.hpp"
   "rosidl_generator_cpp/hello_interfaces/msg/detail/my_string__traits.hpp"
+  "rosidl_generator_cpp/hello_interfaces/msg/detail/my_string__type_support.hpp"
   "rosidl_generator_cpp/hello_interfaces/msg/my_string.hpp"
+  "rosidl_generator_cpp/hello_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

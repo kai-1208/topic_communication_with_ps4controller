@@ -6,6 +6,7 @@
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "hello_interfaces/msg/detail/my_string__struct.h"
 #include "hello_interfaces/msg/detail/my_string__type_support.h"
+#include "hello_interfaces/msg/detail/my_string__functions.h"
 #include "rosidl_typesupport_c/identifier.h"
 #include "rosidl_typesupport_c/message_type_support_dispatch.h"
 #include "rosidl_typesupport_c/type_support_map.h"
@@ -72,6 +73,9 @@ static const rosidl_message_type_support_t MyString_message_type_support_handle 
   rosidl_typesupport_c__typesupport_identifier,
   reinterpret_cast<const type_support_map_t *>(&_MyString_message_typesupport_map),
   rosidl_typesupport_c__get_message_typesupport_handle_function,
+  &hello_interfaces__msg__MyString__get_type_hash,
+  &hello_interfaces__msg__MyString__get_type_description,
+  &hello_interfaces__msg__MyString__get_type_description_sources,
 };
 
 }  // namespace rosidl_typesupport_c

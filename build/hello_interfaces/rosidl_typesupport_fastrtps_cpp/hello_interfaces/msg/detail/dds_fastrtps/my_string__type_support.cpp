@@ -2,8 +2,10 @@
 // with input from hello_interfaces:msg/MyString.idl
 // generated code does not contain a copyright notice
 #include "hello_interfaces/msg/detail/my_string__rosidl_typesupport_fastrtps_cpp.hpp"
+#include "hello_interfaces/msg/detail/my_string__functions.h"
 #include "hello_interfaces/msg/detail/my_string__struct.hpp"
 
+#include <cstddef>
 #include <limits>
 #include <stdexcept>
 #include <string>
@@ -11,6 +13,7 @@
 #include "rosidl_typesupport_fastrtps_cpp/identifier.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/message_type_support.h"
 #include "rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp"
+#include "rosidl_typesupport_fastrtps_cpp/serialization_helpers.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp"
 #include "fastcdr/Cdr.h"
 
@@ -26,6 +29,7 @@ namespace msg
 namespace typesupport_fastrtps_cpp
 {
 
+
 bool
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_hello_interfaces
 cdr_serialize(
@@ -34,6 +38,7 @@ cdr_serialize(
 {
   // Member: data
   cdr << ros_message.data;
+
   return true;
 }
 
@@ -48,6 +53,7 @@ cdr_deserialize(
 
   return true;
 }
+
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_hello_interfaces
@@ -70,6 +76,7 @@ get_serialized_size(
   return current_alignment - initial_alignment;
 }
 
+
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_hello_interfaces
 max_serialized_size_MyString(
@@ -89,11 +96,9 @@ max_serialized_size_MyString(
   full_bounded = true;
   is_plain = true;
 
-
   // Member: data
   {
     size_t array_size = 1;
-
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -118,6 +123,87 @@ max_serialized_size_MyString(
 
   return ret_val;
 }
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_hello_interfaces
+cdr_serialize_key(
+  const hello_interfaces::msg::MyString & ros_message,
+  eprosima::fastcdr::Cdr & cdr)
+{
+  // Member: data
+  cdr << ros_message.data;
+
+  return true;
+}
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_hello_interfaces
+get_serialized_size_key(
+  const hello_interfaces::msg::MyString & ros_message,
+  size_t current_alignment)
+{
+  size_t initial_alignment = current_alignment;
+
+  const size_t padding = 4;
+  const size_t wchar_size = 4;
+  (void)padding;
+  (void)wchar_size;
+
+  // Member: data
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.data.size() + 1);
+
+  return current_alignment - initial_alignment;
+}
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_hello_interfaces
+max_serialized_size_key_MyString(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment)
+{
+  size_t initial_alignment = current_alignment;
+
+  const size_t padding = 4;
+  const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
+  (void)padding;
+  (void)wchar_size;
+
+  full_bounded = true;
+  is_plain = true;
+
+  // Member: data
+  {
+    size_t array_size = 1;
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = hello_interfaces::msg::MyString;
+    is_plain =
+      (
+      offsetof(DataType, data) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
+}
+
 
 static bool _MyString__cdr_serialize(
   const void * untyped_ros_message,
@@ -168,13 +254,17 @@ static message_type_support_callbacks_t _MyString__callbacks = {
   _MyString__cdr_serialize,
   _MyString__cdr_deserialize,
   _MyString__get_serialized_size,
-  _MyString__max_serialized_size
+  _MyString__max_serialized_size,
+  nullptr
 };
 
 static rosidl_message_type_support_t _MyString__handle = {
   rosidl_typesupport_fastrtps_cpp::typesupport_identifier,
   &_MyString__callbacks,
   get_message_typesupport_handle_function,
+  &hello_interfaces__msg__MyString__get_type_hash,
+  &hello_interfaces__msg__MyString__get_type_description,
+  &hello_interfaces__msg__MyString__get_type_description_sources,
 };
 
 }  // namespace typesupport_fastrtps_cpp

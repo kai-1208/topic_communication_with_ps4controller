@@ -1,8 +1,8 @@
-# Install script for directory: /home/otete/topic_communication_with_ps4controller/build/hello_interfaces/hello_interfaces__py
+# Install script for directory: /home/hisa/ROS2/topic_communication_with_ps4controller/build/hello_interfaces/hello_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/otete/topic_communication_with_ps4controller/install/hello_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/hisa/ROS2/topic_communication_with_ps4controller/install/hello_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

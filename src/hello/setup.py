@@ -10,6 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/resource', ['resource/hello'])  # ここを追加
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -20,9 +21,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'talker = hello.talker:main',
-            'listener = hello.listener:main',
+            'talker_iseki = hello.talker_ID12:main',
+            'talker_nari = hello.talker_ID23:main',
+            'listener_robo1 = hello.listener_ID1:main',
+            'listener_robo2-1 = hello.listener_ID2:main',
+            'listener_robo2-2 = hello.listener_ID3:main',
         ]
     },
 )
-

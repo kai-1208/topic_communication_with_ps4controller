@@ -1,0 +1,7 @@
+{
+  "package_name": "hello_interfaces",
+  "output_dir": "/home/hisa/ROS2/topic_communication_with_ps4controller/build/hello_interfaces/rosidl_generator_type_description/hello_interfaces",
+  "idl_tuples": [
+    "/home/hisa/ROS2/topic_communication_with_ps4controller/build/hello_interfaces/rosidl_adapter/hello_interfaces:msg/MyString.idl"
+  ]
+}

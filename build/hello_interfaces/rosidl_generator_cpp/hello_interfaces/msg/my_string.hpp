@@ -7,5 +7,6 @@
 #include "hello_interfaces/msg/detail/my_string__struct.hpp"
 #include "hello_interfaces/msg/detail/my_string__builder.hpp"
 #include "hello_interfaces/msg/detail/my_string__traits.hpp"
+#include "hello_interfaces/msg/detail/my_string__type_support.hpp"
 
 #endif  // HELLO_INTERFACES__MSG__MY_STRING_HPP_
